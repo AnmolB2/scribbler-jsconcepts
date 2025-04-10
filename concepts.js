@@ -9,9 +9,9 @@
   "jsnbversion": "v0.1",
   "cells": [
     {
-      "code": "const order = { id: 1024, status: \"shipped\", items: 3 };\n\nmatch (order) {\n  { status: \"pending\" } => console.log(\"Your order is being processed.\"),\n  { status: \"shipped\" } => console.log(\"Your order has been shipped.\"),\n  { status: \"delivered\" } => console.log(\"Your order has been delivered.\"),\n  { status } => console.log(`Order status: ${status}`),\n  _ => console.log(\"Unknown order status\"),\n}",
-      "status": "[-]",
-      "output": "<p class=\"error\">Unexpected token '{'</p>",
+      "code": "scrib.show(\"Hello World\")",
+      "status": "[1]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "Hello World <br>",
       "type": "code"
     }
   ],
